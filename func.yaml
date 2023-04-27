@@ -8,10 +8,10 @@ entrypoint: /python/bin/fdk /function/func.py handler
 memory: 2048
 timeout: 300
 config:
-  TOPIC_OCID: ocid1.onstopic.oc1.iad.aaaaaaaaxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-  ADB_OCID: ocid1.autonomousdatabase.oc1.iad.yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
-  COMPANY: ACME CORP XXXXXXXXXXXX
-  DBPWD: XXXXYYYYYYY2121**
-  DBSVC: ZZZZZZ_high
+  TOPIC_OCID: ocid1.onstopic.oc1.sa-santiago-1.aaaaaaaa3sq2ya2xqyeyygbozdkcykuta3rhofafx46fe6hykxbaypmsxzqq
+  ADB_OCID: ocid:ocid1.autonomousdatabase.oc1.sa-santiago-1.anzwgljrdadu7nyau5mrqjbsyrjqe3m42krlppkgvkx34bhz6n4hl626hqlq
+  COMPANY: ITGSOFTWARE
+  DBPWD: ClavE.012356,
+  DBSVC: functionadb_high
   DBUSER: ADMIN
   TNS_ADMIN: /tmp/dbwallet
